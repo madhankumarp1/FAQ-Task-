@@ -1,0 +1,64 @@
+#cen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .box {
+    width: 50%;
+    border-style: groove;
+  }
+  
+  h1 {
+    color: rgb(220, 193, 150);
+  }
+  
+  h3 {
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    color: #383434;
+  }
+  
+  p {
+    color: #434040;
+  }
+  
+  .h3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    color: black;
+    font-weight: bolder;
+    background: transparent;
+    font-size: 21px;
+    position: relative;
+    top: 14px;
+    right: 14px;
+    height: 27px;
+    width: 28px;
+    border: 2px solid rgb(220, 193, 150);
+    cursor: pointer;
+  }
+  
+  .box2 {
+    margin: 14px;
+  }
+  
+  .box3,
+  .box4,
+  .box5 {
+    display: none;
+  }
+  
+  .add {
+    display: block;
+  }
+  
+  .blo {
+    display: block;
+  }
+  
